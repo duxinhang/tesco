@@ -3,6 +3,9 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+import {homePage} from './homePage/modules'
+import {Cation} from './Cation/modules'
+
 export default new Vuex.Store({
   state: {
   },
@@ -11,5 +14,7 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
+    homePage,
+    Cation
   }
 })
